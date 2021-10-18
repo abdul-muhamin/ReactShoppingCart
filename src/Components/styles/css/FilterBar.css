@@ -1,0 +1,22 @@
+.FilterBar {
+	height: 100vh;
+	background: white;
+	border: 1px solid white;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	margin-right: 3px;
+}
+
+.formGroup {
+	border: 1px;
+	box-shadow: inset;
+}
+
+@media screen and (max-width: 700px) {
+	.FilterBar {
+		display: none;
+		/* height: 0; */
+		/* opacity: 0; */
+	}
+}
